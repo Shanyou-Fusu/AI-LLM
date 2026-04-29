@@ -85,9 +85,11 @@ outputs = model.generate(inputs, streamer=streamer, max_new_tokens=300)
 ```
 <img width="1311" height="514" alt="image" src="https://github.com/user-attachments/assets/6aee6080-53fb-4804-a275-3879fcdc4400" />
 保存后返回命令行界面，输入
+
 ```bash
-python run_chatglm3_cpu.py
+python run_chatglm3_cpu.py #文件名替换为自己重命名的文件名
 ```
+
 等待结果出现。
 <img width="416" height="71" alt="image" src="https://github.com/user-attachments/assets/a52d6406-1ada-482b-956e-521cd94e5e26" />
 记录结果，并多次修改代码中"prompt"部分的问题，记录不同结果。
